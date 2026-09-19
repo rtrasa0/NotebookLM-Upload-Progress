@@ -2,8 +2,6 @@
 
 A lightweight Chrome extension that displays the upload progress percentage and file size when uploading sources to NotebookLM. Never wonder if your large file is still uploading again!
 
-![Demo](https://i.imgur.com/your-demo-image.gif) <!-- Optional: Replace with a screenshot or GIF of your extension -->
-
 ## ✨ Features
 
 - 📊 Shows real-time upload percentage
@@ -27,7 +25,7 @@ Since this extension is not yet on the Chrome Web Store, you can install it manu
 5. **Load the extension:**
    - Click the **Load unpacked** button.
    - Select the folder you extracted in step 2.
-6. **Done!** Go to [NotebookLM](https://notebook.google.com) and upload a file. You will see the progress indicator in the bottom-right corner.
+6. **Done!** Go to [Gemini Notebook](https://notebook.google.com) and upload a file. You will see the progress indicator in the bottom-right corner.
 
 > **Note:** When using Developer Mode, Chrome may show a warning on startup saying "Disable developer mode extensions". This is normal and safe to ignore.
 
