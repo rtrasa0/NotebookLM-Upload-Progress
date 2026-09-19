@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "NotebookLM Upload Progress",
+  "version": "2.0",
+  "description": "نمایش درصد پیشرفت آپلود فایل در NotebookLM",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://notebooklm.google.com/*",
+        "*://notebook.google.com/*",
+        "*://gemini.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": [
+        "*://notebooklm.google.com/*",
+        "*://notebook.google.com/*",
+        "*://gemini.google.com/*"
+      ]
+    }
+  ]
+}
