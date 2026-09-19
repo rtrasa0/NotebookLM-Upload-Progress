@@ -1,4 +1,4 @@
-# NotebookLM Upload Progress
+# Gemini Notebook Upload Progress
 
 A lightweight Chrome extension that displays the upload progress percentage and file size when uploading sources to NotebookLM. Never wonder if your large file is still uploading again!
 
